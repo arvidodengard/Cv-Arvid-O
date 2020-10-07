@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.item {
+    background-color: chartreuse;
+    flex-grow: 1;
+    height:100px;
+}
+
+.item + .item {
+    margin-left: 2%;
+}
+
+body {
+    background-color: coral;
+}
